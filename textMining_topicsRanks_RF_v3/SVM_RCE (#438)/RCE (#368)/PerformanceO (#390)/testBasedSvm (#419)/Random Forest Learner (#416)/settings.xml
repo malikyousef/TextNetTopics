@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <entry key="targetColumn" type="xstring" value="class"/>
+        <entry key="seed" type="xstring" value="1578476909202"/>
+        <entry key="maxLevels" type="xint" value="-1"/>
+        <entry key="minNodeSize" type="xint" value="-1"/>
+        <entry key="minChildSize" type="xint" value="-1"/>
+        <entry key="dataFraction" type="xdouble" value="1.0"/>
+        <entry key="isDataSelectionWithReplacement" type="xboolean" value="true"/>
+        <entry key="hardCodedRootColumn" type="xstring" isnull="true" value=""/>
+        <entry key="columnSamplingMode" type="xstring" value="SquareRoot"/>
+        <entry key="columnFractionPerTree" type="xdouble" value="1.0"/>
+        <entry key="columnAbsolutePerTree" type="xint" value="10"/>
+        <entry key="isUseDifferentAttributesAtEachNode" type="xboolean" value="true"/>
+        <entry key="nrModels" type="xint" value="100"/>
+        <entry key="splitCriterion" type="xstring" value="Gini"/>
+        <entry key="missingValueHandling" type="xstring" value="XGBoost"/>
+        <entry key="useAverageSplitPoints" type="xboolean" value="true"/>
+        <entry key="useBinaryNominalSplits" type="xboolean" value="true"/>
+        <entry key="fingerprintColumn" type="xstring" isnull="true" value=""/>
+        <config key="columnFilterConfig">
+            <entry key="filter-type" type="xstring" value="STANDARD"/>
+            <config key="included_names">
+                <entry key="array-size" type="xint" value="166"/>
+                <entry key="0" type="xstring" value="time"/>
+                <entry key="1" type="xstring" value="associ"/>
+                <entry key="2" type="xstring" value="studi"/>
+                <entry key="3" type="xstring" value="measur"/>
+                <entry key="4" type="xstring" value="increas"/>
+                <entry key="5" type="xstring" value="patient"/>
+                <entry key="6" type="xstring" value="compar"/>
+                <entry key="7" type="xstring" value="level"/>
+                <entry key="8" type="xstring" value="significantli"/>
+                <entry key="9" type="xstring" value="respect"/>
+                <entry key="10" type="xstring" value="total"/>
+                <entry key="11" type="xstring" value="us"/>
+                <entry key="12" type="xstring" value="signific"/>
+                <entry key="13" type="xstring" value="risk"/>
+                <entry key="14" type="xstring" value="particip"/>
+                <entry key="15" type="xstring" value="mean"/>
+                <entry key="16" type="xstring" value="assess"/>
+                <entry key="17" type="xstring" value="lower"/>
+                <entry key="18" type="xstring" value="rang"/>
+                <entry key="19" type="xstring" value="overal"/>
+                <entry key="20" type="xstring" value="ag"/>
+                <entry key="21" type="xstring" value="baselin"/>
+                <entry key="22" type="xstring" value="score"/>
+                <entry key="23" type="xstring" value="health"/>
+                <entry key="24" type="xstring" value="infant"/>
+                <entry key="25" type="xstring" value="birth"/>
+                <entry key="26" type="xstring" value="consumpt"/>
+                <entry key="27" type="xstring" value="function"/>
+                <entry key="28" type="xstring" value="control"/>
+                <entry key="29" type="xstring" value="activ"/>
+                <entry key="30" type="xstring" value="correl"/>
+                <entry key="31" type="xstring" value="decreas"/>
+                <entry key="32" type="xstring" value="effect"/>
+                <entry key="33" type="xstring" value="serum"/>
+                <entry key="34" type="xstring" value="week"/>
+                <entry key="35" type="xstring" value="differ"/>
+                <entry key="36" type="xstring" value="index"/>
+                <entry key="37" type="xstring" value="male"/>
+                <entry key="38" type="xstring" value="femal"/>
+                <entry key="39" type="xstring" value="â±â"/>
+                <entry key="40" type="xstring" value="injuri"/>
+                <entry key="41" type="xstring" value="mass"/>
+                <entry key="42" type="xstring" value="diseas"/>
+                <entry key="43" type="xstring" value="rate"/>
+                <entry key="44" type="xstring" value="observ"/>
+                <entry key="45" type="xstring" value="treatment"/>
+                <entry key="46" type="xstring" value="improv"/>
+                <entry key="47" type="xstring" value="includ"/>
+                <entry key="48" type="xstring" value="chang"/>
+                <entry key="49" type="xstring" value="statist"/>
+                <entry key="50" type="xstring" value="month"/>
+                <entry key="51" type="xstring" value="clinic"/>
+                <entry key="52" type="xstring" value="analysi"/>
+                <entry key="53" type="xstring" value="data"/>
+                <entry key="54" type="xstring" value="report"/>
+                <entry key="55" type="xstring" value="disord"/>
+                <entry key="56" type="xstring" value="anxieti"/>
+                <entry key="57" type="xstring" value="depress"/>
+                <entry key="58" type="xstring" value="symptom"/>
+                <entry key="59" type="xstring" value="pain"/>
+                <entry key="60" type="xstring" value="outcom"/>
+                <entry key="61" type="xstring" value="identifi"/>
+                <entry key="62" type="xstring" value="tumor"/>
+                <entry key="63" type="xstring" value="type"/>
+                <entry key="64" type="xstring" value="perform"/>
+                <entry key="65" type="xstring" value="lesion"/>
+                <entry key="66" type="xstring" value="head"/>
+                <entry key="67" type="xstring" value="fractur"/>
+                <entry key="68" type="xstring" value="imag"/>
+                <entry key="69" type="xstring" value="reduc"/>
+                <entry key="70" type="xstring" value="factor"/>
+                <entry key="71" type="xstring" value="follow-up"/>
+                <entry key="72" type="xstring" value="recurr"/>
+                <entry key="73" type="xstring" value="sampl"/>
+                <entry key="74" type="xstring" value="model"/>
+                <entry key="75" type="xstring" value="respons"/>
+                <entry key="76" type="xstring" value="regress"/>
+                <entry key="77" type="xstring" value="dose"/>
+                <entry key="78" type="xstring" value="concentr"/>
+                <entry key="79" type="xstring" value="volum"/>
+                <entry key="80" type="xstring" value="test"/>
+                <entry key="81" type="xstring" value="children"/>
+                <entry key="82" type="xstring" value="women"/>
+                <entry key="83" type="xstring" value="hospit"/>
+                <entry key="84" type="xstring" value="method"/>
+                <entry key="85" type="xstring" value="result"/>
+                <entry key="86" type="xstring" value="gene"/>
+                <entry key="87" type="xstring" value="subject"/>
+                <entry key="88" type="xstring" value="evalu"/>
+                <entry key="89" type="xstring" value="detect"/>
+                <entry key="90" type="xstring" value="mutat"/>
+                <entry key="91" type="xstring" value="valu"/>
+                <entry key="92" type="xstring" value="sever"/>
+                <entry key="93" type="xstring" value="trial"/>
+                <entry key="94" type="xstring" value="dai"/>
+                <entry key="95" type="xstring" value="stroke"/>
+                <entry key="96" type="xstring" value="heart"/>
+                <entry key="97" type="xstring" value="surviv"/>
+                <entry key="98" type="xstring" value="hazard"/>
+                <entry key="99" type="xstring" value="cancer"/>
+                <entry key="100" type="xstring" value="stage"/>
+                <entry key="101" type="xstring" value="mortal"/>
+                <entry key="102" type="xstring" value="ratio"/>
+                <entry key="103" type="xstring" value="versu"/>
+                <entry key="104" type="xstring" value="median"/>
+                <entry key="105" type="xstring" value="multivari"/>
+                <entry key="106" type="xstring" value="grade"/>
+                <entry key="107" type="xstring" value="resect"/>
+                <entry key="108" type="xstring" value="knowledg"/>
+                <entry key="109" type="xstring" value="provid"/>
+                <entry key="110" type="xstring" value="adult"/>
+                <entry key="111" type="xstring" value="intervent"/>
+                <entry key="112" type="xstring" value="physic"/>
+                <entry key="113" type="xstring" value="care"/>
+                <entry key="114" type="xstring" value="behavior"/>
+                <entry key="115" type="xstring" value="commun"/>
+                <entry key="116" type="xstring" value="survei"/>
+                <entry key="117" type="xstring" value="cohort"/>
+                <entry key="118" type="xstring" value="period"/>
+                <entry key="119" type="xstring" value="cycl"/>
+                <entry key="120" type="xstring" value="ey"/>
+                <entry key="121" type="xstring" value="visual"/>
+                <entry key="122" type="xstring" value="diabet"/>
+                <entry key="123" type="xstring" value="social"/>
+                <entry key="124" type="xstring" value="medic"/>
+                <entry key="125" type="xstring" value="interv"/>
+                <entry key="126" type="xstring" value="death"/>
+                <entry key="127" type="xstring" value="adjust"/>
+                <entry key="128" type="xstring" value="cell"/>
+                <entry key="129" type="xstring" value="vitro"/>
+                <entry key="130" type="xstring" value="protein"/>
+                <entry key="131" type="xstring" value="mice"/>
+                <entry key="132" type="xstring" value="prolifer"/>
+                <entry key="133" type="xstring" value="induc"/>
+                <entry key="134" type="xstring" value="inhibit"/>
+                <entry key="135" type="xstring" value="express"/>
+                <entry key="136" type="xstring" value="tissu"/>
+                <entry key="137" type="xstring" value="apoptosi"/>
+                <entry key="138" type="xstring" value="assai"/>
+                <entry key="139" type="xstring" value="rat"/>
+                <entry key="140" type="xstring" value="growth"/>
+                <entry key="141" type="xstring" value="insulin"/>
+                <entry key="142" type="xstring" value="therapi"/>
+                <entry key="143" type="xstring" value="receiv"/>
+                <entry key="144" type="xstring" value="drug"/>
+                <entry key="145" type="xstring" value="underw"/>
+                <entry key="146" type="xstring" value="procedur"/>
+                <entry key="147" type="xstring" value="implant"/>
+                <entry key="148" type="xstring" value="surgeri"/>
+                <entry key="149" type="xstring" value="oper"/>
+                <entry key="150" type="xstring" value="complic"/>
+                <entry key="151" type="xstring" value="surgic"/>
+                <entry key="152" type="xstring" value="postop"/>
+                <entry key="153" type="xstring" value="posit"/>
+                <entry key="154" type="xstring" value="syndrom"/>
+                <entry key="155" type="xstring" value="discharg"/>
+                <entry key="156" type="xstring" value="admiss"/>
+                <entry key="157" type="xstring" value="develop"/>
+                <entry key="158" type="xstring" value="research"/>
+                <entry key="159" type="xstring" value="review"/>
+                <entry key="160" type="xstring" value="public"/>
+                <entry key="161" type="xstring" value="valid"/>
+                <entry key="162" type="xstring" value="conduct"/>
+                <entry key="163" type="xstring" value="random"/>
+                <entry key="164" type="xstring" value="search"/>
+                <entry key="165" type="xstring" value="databas"/>
+            </config>
+            <config key="excluded_names">
+                <entry key="array-size" type="xint" value="0"/>
+            </config>
+            <entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
+            <config key="name_pattern">
+                <entry key="pattern" type="xstring" value=""/>
+                <entry key="type" type="xstring" value="Wildcard"/>
+                <entry key="caseSensitive" type="xboolean" value="true"/>
+                <entry key="excludeMatching" type="xboolean" value="false"/>
+            </config>
+            <config key="datatype">
+                <config key="typelist">
+                    <entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.BooleanValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.LongValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.date.DateAndTimeValue" type="xboolean" value="false"/>
+                </config>
+            </config>
+        </config>
+        <entry key="ignoreColumnsWithoutDomain" type="xboolean" value="true"/>
+        <entry key="nrHilitePatterns" type="xint" value="-1"/>
+        <entry key="saveTargetDistributionInNodes" type="xboolean" value="false"/>
+        <entry key="rowSamplingMode" type="xstring" value="Random"/>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="IDLE"/>
+    <entry key="factory" type="xstring" value="org.knime.base.node.mine.treeensemble2.node.randomforest.learner.classification.RandomForestClassificationLearnerNodeFactory2"/>
+    <entry key="node-name" type="xstring" value="Random Forest Learner"/>
+    <entry key="node-bundle-name" type="xstring" value="Decisions Tree Ensembles for KNIME"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base.treeensembles2"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="4.5.0.v202107011901"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Ensemble Learning Wrappers"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.ensembles.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="4.5.0.v202111151053"/>
+    <config key="factory_settings"/>
+    <entry key="name" type="xstring" value="Random Forest Learner"/>
+    <entry key="hasContent" type="xboolean" value="false"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports">
+        <config key="port_1">
+            <entry key="index" type="xint" value="1"/>
+            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+        </config>
+        <config key="port_2">
+            <entry key="index" type="xint" value="2"/>
+            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+        </config>
+        <config key="port_3">
+            <entry key="index" type="xint" value="3"/>
+            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
+    </config>
+</config>

@@ -1,0 +1,7 @@
+
+{
+    "knime.var.g_nc": {
+        "type": "integer",
+        "default": 10
+    }
+}

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <config key="column-filter">
+            <entry key="filter-type" type="xstring" value="datatype"/>
+            <config key="included_names">
+                <entry key="array-size" type="xint" value="37"/>
+                <entry key="0" type="xstring" value="TCGA-DF-A2KY-01"/>
+                <entry key="1" type="xstring" value="TCGA-EY-A1GO-01"/>
+                <entry key="2" type="xstring" value="TCGA-EY-A72D-01"/>
+                <entry key="3" type="xstring" value="TCGA-EY-A549-01"/>
+                <entry key="4" type="xstring" value="TCGA-AX-A2IN-01"/>
+                <entry key="5" type="xstring" value="TCGA-DF-A2KR-01"/>
+                <entry key="6" type="xstring" value="TCGA-PG-A916-01"/>
+                <entry key="7" type="xstring" value="TCGA-BG-A3EW-01"/>
+                <entry key="8" type="xstring" value="TCGA-AX-A3G8-01"/>
+                <entry key="9" type="xstring" value="TCGA-AJ-A3NF-01"/>
+                <entry key="10" type="xstring" value="TCGA-BK-A56F-01"/>
+                <entry key="11" type="xstring" value="TCGA-EY-A3L3-01"/>
+                <entry key="12" type="xstring" value="TCGA-4E-A92E-01"/>
+                <entry key="13" type="xstring" value="TCGA-B5-A11R-01"/>
+                <entry key="14" type="xstring" value="TCGA-FI-A2EY-01"/>
+                <entry key="15" type="xstring" value="TCGA-JU-AAVI-01"/>
+                <entry key="16" type="xstring" value="TCGA-AX-A2HH-01"/>
+                <entry key="17" type="xstring" value="TCGA-D1-A3DG-01"/>
+                <entry key="18" type="xstring" value="TCGA-EY-A2OP-01"/>
+                <entry key="19" type="xstring" value="TCGA-AJ-A3EK-01"/>
+                <entry key="20" type="xstring" value="TCGA-FI-A3PV-01"/>
+                <entry key="21" type="xstring" value="TCGA-DI-A2QY-01"/>
+                <entry key="22" type="xstring" value="TCGA-KP-A3W4-01"/>
+                <entry key="23" type="xstring" value="TCGA-AJ-A3BD-01"/>
+                <entry key="24" type="xstring" value="TCGA-BK-A6W3-01"/>
+                <entry key="25" type="xstring" value="TCGA-AJ-A8CW-01"/>
+                <entry key="26" type="xstring" value="TCGA-QS-A5YQ-01"/>
+                <entry key="27" type="xstring" value="TCGA-QF-A5YS-01"/>
+                <entry key="28" type="xstring" value="TCGA-DF-A2KZ-01"/>
+                <entry key="29" type="xstring" value="TCGA-H5-A2HR-01"/>
+                <entry key="30" type="xstring" value="TCGA-SL-A6J9-01"/>
+                <entry key="31" type="xstring" value="TCGA-AX-A3G1-01"/>
+                <entry key="32" type="xstring" value="TCGA-EY-A2OO-01"/>
+                <entry key="33" type="xstring" value="TCGA-EO-A3KW-01"/>
+                <entry key="34" type="xstring" value="TCGA-FL-A1YI-11"/>
+                <entry key="35" type="xstring" value="Cluster"/>
+                <entry key="36" type="xstring" value="Gene"/>
+            </config>
+            <config key="excluded_names">
+                <entry key="array-size" type="xint" value="63"/>
+                <entry key="0" type="xstring" value="TCGA-EO-A3B1-01"/>
+                <entry key="1" type="xstring" value="TCGA-EO-A1Y7-01"/>
+                <entry key="2" type="xstring" value="TCGA-EO-A3AZ-01"/>
+                <entry key="3" type="xstring" value="TCGA-A5-AB3J-01"/>
+                <entry key="4" type="xstring" value="TCGA-AJ-A23N-01"/>
+                <entry key="5" type="xstring" value="TCGA-AJ-A3BK-01"/>
+                <entry key="6" type="xstring" value="TCGA-B5-A1MS-01"/>
+                <entry key="7" type="xstring" value="TCGA-QF-A5YT-01"/>
+                <entry key="8" type="xstring" value="TCGA-BG-A3PP-11"/>
+                <entry key="9" type="xstring" value="TCGA-AX-A2HC-11"/>
+                <entry key="10" type="xstring" value="TCGA-AX-A05Y-11"/>
+                <entry key="11" type="xstring" value="TCGA-AJ-A3NH-11"/>
+                <entry key="12" type="xstring" value="TCGA-FL-A1YQ-11"/>
+                <entry key="13" type="xstring" value="TCGA-FL-A1YT-11"/>
+                <entry key="14" type="xstring" value="TCGA-FL-A1YN-11"/>
+                <entry key="15" type="xstring" value="TCGA-FL-A1YL-11"/>
+                <entry key="16" type="xstring" value="TCGA-FL-A3WE-11"/>
+                <entry key="17" type="xstring" value="TCGA-FL-A1YG-11"/>
+                <entry key="18" type="xstring" value="TCGA-DI-A2QY-11"/>
+                <entry key="19" type="xstring" value="TCGA-AX-A0IZ-11"/>
+                <entry key="20" type="xstring" value="TCGA-BG-A3EW-11"/>
+                <entry key="21" type="xstring" value="TCGA-FL-A1YF-11"/>
+                <entry key="22" type="xstring" value="TCGA-FL-A1YH-11"/>
+                <entry key="23" type="xstring" value="TCGA-BK-A4ZD-11"/>
+                <entry key="24" type="xstring" value="TCGA-AX-A0J0-11"/>
+                <entry key="25" type="xstring" value="TCGA-BG-A2AD-11"/>
+                <entry key="26" type="xstring" value="TCGA-AJ-A3NC-11"/>
+                <entry key="27" type="xstring" value="TCGA-FL-A1YU-11"/>
+                <entry key="28" type="xstring" value="TCGA-EY-A548-01"/>
+                <entry key="29" type="xstring" value="TCGA-AX-A3FS-01"/>
+                <entry key="30" type="xstring" value="TCGA-A5-A2K7-01"/>
+                <entry key="31" type="xstring" value="TCGA-AJ-A3NE-01"/>
+                <entry key="32" type="xstring" value="TCGA-EO-A22U-01"/>
+                <entry key="33" type="xstring" value="TCGA-K6-A3WQ-01"/>
+                <entry key="34" type="xstring" value="TCGA-AX-A3GB-01"/>
+                <entry key="35" type="xstring" value="TCGA-AJ-A3OL-01"/>
+                <entry key="36" type="xstring" value="TCGA-AJ-A3IA-01"/>
+                <entry key="37" type="xstring" value="TCGA-AJ-A2QM-01"/>
+                <entry key="38" type="xstring" value="TCGA-KP-A3W3-01"/>
+                <entry key="39" type="xstring" value="TCGA-AX-A3FT-01"/>
+                <entry key="40" type="xstring" value="TCGA-B5-A3FH-01"/>
+                <entry key="41" type="xstring" value="TCGA-B5-A3S1-01"/>
+                <entry key="42" type="xstring" value="TCGA-5B-A90C-01"/>
+                <entry key="43" type="xstring" value="TCGA-AJ-A3BI-01"/>
+                <entry key="44" type="xstring" value="TCGA-AJ-A5DW-01"/>
+                <entry key="45" type="xstring" value="TCGA-A5-A7WK-01"/>
+                <entry key="46" type="xstring" value="TCGA-BG-A3PP-01"/>
+                <entry key="47" type="xstring" value="TCGA-5S-A9Q8-01"/>
+                <entry key="48" type="xstring" value="TCGA-EY-A1GL-01"/>
+                <entry key="49" type="xstring" value="TCGA-BK-A6W4-01"/>
+                <entry key="50" type="xstring" value="TCGA-BK-A13B-01"/>
+                <entry key="51" type="xstring" value="TCGA-BS-A0V4-01"/>
+                <entry key="52" type="xstring" value="TCGA-EO-A3KX-01"/>
+                <entry key="53" type="xstring" value="TCGA-AJ-A3OJ-01"/>
+                <entry key="54" type="xstring" value="TCGA-B5-A3FC-01"/>
+                <entry key="55" type="xstring" value="TCGA-AX-A3G3-01"/>
+                <entry key="56" type="xstring" value="TCGA-DF-A2L0-01"/>
+                <entry key="57" type="xstring" value="TCGA-AJ-A3EM-01"/>
+                <entry key="58" type="xstring" value="TCGA-EO-A3AV-01"/>
+                <entry key="59" type="xstring" value="TCGA-AJ-A3I9-01"/>
+                <entry key="60" type="xstring" value="TCGA-DI-A1BU-01"/>
+                <entry key="61" type="xstring" value="TCGA-KP-A3W1-01"/>
+                <entry key="62" type="xstring" value="TCGA-AX-A2HD-11"/>
+            </config>
+            <entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
+            <config key="name_pattern">
+                <entry key="pattern" type="xstring" value=""/>
+                <entry key="type" type="xstring" value="Wildcard"/>
+                <entry key="caseSensitive" type="xboolean" value="true"/>
+                <entry key="excludeMatching" type="xboolean" value="false"/>
+            </config>
+            <config key="datatype">
+                <config key="typelist">
+                    <entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.StringValue" type="xboolean" value="true"/>
+                    <entry key="org.knime.core.data.BooleanValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.LongValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.date.DateAndTimeValue" type="xboolean" value="false"/>
+                </config>
+            </config>
+        </config>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="IDLE"/>
+    <entry key="factory" type="xstring" value="org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory"/>
+    <entry key="node-name" type="xstring" value="Column Filter"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="4.5.0.v202111301618"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Base nodes"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="4.5.0.v202112011253"/>
+    <config key="factory_settings"/>
+    <entry key="name" type="xstring" value="Column Filter"/>
+    <entry key="hasContent" type="xboolean" value="false"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports">
+        <config key="port_1">
+            <entry key="index" type="xint" value="1"/>
+            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
+    </config>
+</config>

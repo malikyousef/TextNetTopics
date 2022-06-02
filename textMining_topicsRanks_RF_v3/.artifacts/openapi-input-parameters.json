@@ -1,0 +1,42 @@
+
+{
+    "type": "object",
+    "properties": {
+        "ttest_genes-465:433:399": {
+            "type": "integer",
+            "default": 1000,
+            "description": "Enter Description",
+            "example": 1000
+        },
+        "number_of_initial_clusters-465:433:373": {
+            "type": "integer",
+            "default": 20,
+            "description": "Enter Description",
+            "example": 20
+        },
+        "posClass-465:433:407": {
+            "type": "string",
+            "default": "pos",
+            "description": "Enter Description",
+            "example": "pos"
+        },
+        "internal_rank_itr-465:433:408": {
+            "type": "integer",
+            "default": 10,
+            "description": "Enter Description",
+            "example": 10
+        },
+        "reduction_ratio-465:433:412": {
+            "type": "number",
+            "default": 0.1,
+            "description": "Enter Description",
+            "example": 0.1
+        },
+        "nmItr-408": {
+            "type": "integer",
+            "default": 5,
+            "description": "Enter Description",
+            "example": 5
+        }
+    }
+}
